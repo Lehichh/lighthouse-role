@@ -11,8 +11,6 @@
   ansible.builtin.apt:
     pkg:
     - unzip
-    - sed
-    - vim-enhanced
 
 - name: Create directiry
   become: true
