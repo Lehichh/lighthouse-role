@@ -1,8 +1,3 @@
 ---
 dependencies:
   - unzip
-lighthouse_location_dir: /tmp/lighthouse-master
-lighthouse_access_log_name: lighthouse
-lighthouse_clh_access_point_file: /tmp/lighthouse-master/app.js
-lighthouse_access_point_regexp: db_host = prompt\('Host:',
-lighthouse_access_point: db_host = 'http://{{ clickhouse_host_ip }}:8123/';

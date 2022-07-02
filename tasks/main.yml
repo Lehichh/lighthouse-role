@@ -10,7 +10,7 @@
   become: true
   ansible.builtin.apt:
     pkg:
-    - unzip
+      - unzip
 
 - name: Create directiry
   become: true
